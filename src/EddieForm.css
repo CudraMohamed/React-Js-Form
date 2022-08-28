@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form{
+    margin: 10%;
+    padding: 30px;
+    display: flex;
+    gap: 25%;
+    background-color: white;
+
+}
+body{
+    background-color: #FEE898;
+}
+.fillingForm{
+    margin-left: 5%;
+}
+form{
+    padding-top: 20px;
+}
+.input{
+    padding: 5% 45% ;
+}
+button{
+    padding: 5% 45%;
+}
+.social-media{
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+.facebook{
+    padding-left: 15px;
+}
+.google{
+    padding-left: 15px;
+}
+.instagram{
+    padding-left: 15px;
+}
+.forget{
+    margin-left: 10%;
+    margin-right: -30%;
+    margin-top: -15%;
+}
+.keep{
+    display: flex;
+    gap: 25px;
+    font-size: 15px;
+}
+.bikerImage{
+    size: 50px;
+}
+.biker{
+    margin-top: 55px;
+}
+.signUp{
+    margin-bottom: 50px;
+}
