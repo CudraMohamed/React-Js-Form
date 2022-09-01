@@ -3,8 +3,10 @@
 import About from './About';
 import EddieForm from './EddieForm';
 import './EddieForm.css'
+import React, {useEffect, useState} from "react";
 
 function App() {
+  
   // return (
   //   <div className="App">
   //     <header className="App-header">
@@ -23,8 +25,25 @@ function App() {
   //     </header>
   //   </div>
   // );
+
+
+
+  // const [num,setNum]=useState(0);
+  // useEffect(()=>{
+  //   setNum(num+20)
+  // },[])
+
+
   return(
     <div className='App'>
+
+
+      {/* <p>{num}</p>
+      <button onClick={()=>{setNum(num+1)}}>
+        Click me
+      </button> */}
+
+
       {/* <About/> */}
       <EddieForm/>
     </div>
