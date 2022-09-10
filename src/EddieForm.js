@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import {FaFacebook} from "react-icons/fa";
 import { FaGooglePlus } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import Props from "./Props";
+import Render from "./Render";
 
 const logoImg=new URL('./logoo.png',import.meta.url)
 const bikerImg=new URL('./biker.png',import.meta.url)
@@ -36,13 +38,19 @@ const EddieForm=()=>{
                     <FaInstagram className="instagram"/>
                     </div>
 
-                    
+                    <Props email={email? email:"loading..."}/>
+
                 </form>
+
             </div>
             <div className="biker">
                 <h4 className="signUp">Don't have an account? <a href="#">Sign Up</a></h4>
                 <img src={bikerImg} alt="biker" className="bikerImage"/>
             </div>
+            
+            {/* {email? <Props email={email}/>:<Render/>} */}
+            {/* <Props email={"ncudramohamed@gmail.com"}/> */}
+           
         </div>
     )
 }

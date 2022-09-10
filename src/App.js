@@ -5,6 +5,8 @@ import EddieForm from './EddieForm';
 import './EddieForm.css'
 import React, {useEffect, useState} from "react";
 
+
+
 function App() {
   
   // return (
@@ -44,8 +46,9 @@ function App() {
       </button> */}
 
 
-      {/* <About/> */}
+      
       <EddieForm/>
+      {/* <About email={"ncudramohamed@gmail.com"}/> */}
     </div>
   )
 }
